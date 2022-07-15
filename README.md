@@ -1,3 +1,5 @@
+![utf8-converter](./snapshot.png)
+
 <a name="back"></a>
 ### [<img width="64" alt="Flag of Brazil" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/64px-Flag_of_Brazil.svg.png">](#ptbr) [<img width="64" alt="Flag of the United States" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Flag_of_the_United_States_%283-2%29.svg/64px-Flag_of_the_United_States_%283-2%29.svg.png">](#en)
 
