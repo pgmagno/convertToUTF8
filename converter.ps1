@@ -31,12 +31,14 @@ if ($firstReply -eq "YES" -and $secondReply -eq "YES") {
     foreach($i in ls "*.*") {
 
         if($i.Extension -ieq  ".txt" -or $i.Extension -ieq ".csv"){
-
-        Write-Host "Converting" $i.Name "...OK!"
-        $temp = Get-Content $i.fullname
-        Out-File -filepath $i.fullname -inputobject $temp -encoding utf8 -force
+            Write-Host "Converting" $i.Name "...OK!"
+            $temp = Get-Content $i.fullname
+            Out-File -filepath $i.fullname -inputobject $temp -encoding utf8 -force
+        } else {
+            Write-Host $i.Name "is not a TXT or CSV file. Conversion not performed!"
         }
     }
+    
     
     Write-Host "`nPress [ENTER] to exit..."
     Read-Host
