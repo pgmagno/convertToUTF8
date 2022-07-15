@@ -21,11 +21,16 @@
 
 ### How to Run
 1. Place the `converter.exe` file in the folder containing the TXT or CSV files.
-2. Double-click the EXE and type in `YES` when prompted.
+2. Execute in the script in one of two ways:
+> * Double-click the EXE and type in `YES` when prompted.
+
+OR
+
+> * Execute the PowerShell file. The original script `converter.ps1` is also provided in this repository. Feel free to check what code is being run and make changes to your liking!
 
 ### Notes & Known Issues
 * *If there are no files to work with the conversion will simply not be performed.*
-* *The app was written to look for TXT and CSV files. If there are files with different extensions (like the EXE itself), an abortion message will be shown.*
+* *The app was written to look for TXT and CSV files. If there are files with different extensions (like the EXE itself), an abortion message will be shown regarding the incompatible files.*
  
 [Back to top](#back)
 
@@ -51,16 +56,21 @@
 
 ### Como executar
 1. Coloque o arquivo `converter.exe` na pasta que contém os arquivos TXT e CSV.
-2. Dê um duplo clique no arquivo EXE e digite `YES` quando for pedido. Será perguntado duas vezes para garantir que o usuário concorda com a conversão:
-```
-Do you want to convert all 'CSV' and 'TXT' files in this folder to 'UFT-8 with BOM'?
-Type [YES] to confirm or [NO] to Exit: 
-```
-5.  Digite `NO` a qualquer momento para abortar.
+2. Execute o conversor através de uma das duas maneiras abaixo:
+> * Dê um duplo clique no arquivo EXE e digite `YES` quando for pedido. Será perguntado duas vezes para garantir que o usuário concorda com a conversão:
+> ```
+> Do you want to convert all 'CSV' and 'TXT' files in this folder to 'UFT-8 with BOM'?
+> Type [YES] to confirm or [NO] to Exit: 
+> ```
+> *  Digite `NO` a qualquer momento para abortar.
+
+OU
+
+> * Execute diretamente o arquivo PowerShell ao invés do executável. O script original `converter.ps1` também está disponível neste repositório caso queira checar o código ou fazer modificações para a adequá-lo a sua necessidade. 
 
 ### Notas & Problemas Conhecidos
 * *Se não houver arquivos com extensão TXT ou CSV, nenhuma conversão será executada.*
-* *A aplicação foi criada para procurar estes tipos de arquivo. Se encontrar outros arquivos com extensões diferentes destas (como o próprio EXE), uma mensagem de abortamento será exibida na tela.*
+* *A aplicação foi criada para procurar estes tipos de arquivo. Se encontrar outros arquivos com extensões diferentes destas (como o próprio EXE), uma mensagem de abortamento para aqueles incompatíveis será exibida na tela.*
 
 [Voltar ao topo da página](#back)
 
